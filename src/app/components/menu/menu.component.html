@@ -1,0 +1,23 @@
+<button class="menu-toggler" (click)="toggleMenu()">☰</button>
+<div
+    class="menu position-fixed"
+    [ngClass]="{'menu-show': showMenu}">
+    <button id="btn" (click)="toggleMenu()">⛌</button>
+    <ul>
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <a href="">About Us</a>
+        </li>
+        <li>
+            <a href="">Our Menu</a>
+        </li>
+        <li>
+            <a href="">Reserve A Table</a>
+        </li>
+        <li>
+            <a href="">Contact</a>
+        </li>
+    </ul>
+</div>

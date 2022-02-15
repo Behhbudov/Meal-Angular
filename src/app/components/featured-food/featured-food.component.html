@@ -1,0 +1,91 @@
+<div class="container-fluid mb-5 pb-5" id="featureFood">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="featureFood-title text-center">
+          Find your best food
+          <div class="d-block featureFood-title-subtitle mt-4">
+            Free Website Template For Restaurants Made by Colorlib
+          </div>
+        </h2>
+      </div>
+      <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
+        <div class="row">
+          <div class="col-8 col">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div *ngFor="let item of featured; let i = index">
+                    <div *ngIf="i < 2" class="col-md-12 col featureFood-item">
+                      <div class="row" *ngIf="i % 2 != 0">
+                        <div class="col-md-6 text-center bg-white">
+                          <div class="flex-column d-flex align-content-center justify-content-center h-100">
+                            <h3>
+                              {{item.name}}
+                            </h3>
+                            <h4 class="text-uppercase">
+                              {{item.subTitle}}
+                            </h4>
+                            <div class="featureFood-item-description">
+                              {{item.description}}
+                            </div>
+                            <a href="#">Learn More →</a>
+                          </div>
+                        </div>
+                        <div class="col-md-6 featuredFood-item-img"
+                             style="background-image: url({{item.picture}});">
+                        </div>
+                      </div>
+                      <div class="row" *ngIf="i % 2 == 0">
+                        <div class="col-md-6 featuredFood-item-img"
+                             style="background-image: url({{item.picture}});">
+                        </div>
+                        <div class="col-md-6 text-center bg-white ">
+                          <div class="flex-column d-flex align-content-center justify-content-center h-100">
+                            <h3>
+                              {{item.name}}
+                            </h3>
+                            <h4>
+                              {{item.subTitle}}
+                            </h4>
+                            <div class="featureFood-item-description">
+                              {{item.description}}
+                            </div>
+                            <a href="#">Learn More →</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col">
+            <div *ngFor="let item of featured; let i = index">
+              <div *ngIf="i > 1" class="featureFood-item">
+                <div class="row">
+                  <div class="col-md-12 featuredFood-item-img" style="background-image: url({{item.picture}});"></div>
+                  <div class="col-md-12 text-center bg-white">
+                    <div class="flex-column d-flex align-content-center justify-content-center h-400">
+                      <h3>
+                        {{item.name}}
+                      </h3>
+                      <h4>
+                        {{item.subTitle}}
+                      </h4>
+                      <div class="featureFood-item-description">
+                        {{item.description}}
+                      </div>
+                      <a href="#">Learn More →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

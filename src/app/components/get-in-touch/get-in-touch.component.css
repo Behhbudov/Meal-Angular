@@ -1,0 +1,57 @@
+#touch {
+    background-color: #f9f8fa;
+    padding: 8em 0;
+}
+h1 {
+    font: 500 45px "Playfair Display", serif;
+    text-align: center;
+    padding-bottom: 1em;
+}
+#inputs {
+    width: 70%;
+    background-color: #fff;
+    padding: 3em 3em;
+    box-shadow: 0 10px 20px -5px rgb(0 0 0 / 10%);
+}
+label {
+    font: normal 18px "Open Sans", Arial, sans-serif;
+    color: gray;
+}
+input {
+    font-family: "Open Sans", Arial, sans-serif;
+    border: 2px solid lightgray;
+    margin-bottom: 20px;
+    color: gray;
+    transition: all 400ms;
+}
+textarea {
+    font-family: "Open Sans", Arial, sans-serif;
+    border: 2px solid lightgray;
+    color: gray;
+    transition: all 400ms;
+}
+input:hover, textarea:hover { border-color: #ff7a5c; }
+button {
+    box-sizing: content-box;
+    background-color: none;
+    background: none;
+    color: #ff7a5c;
+    letter-spacing: .3em;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 7px 65px;
+    border-radius: 3px;
+    border: 2px solid #ff7a5c;
+    text-transform: uppercase;
+    margin-top: 30px;
+    transition: all 400ms;
+}
+button:hover {
+    background-color: #ff7a5c;
+    color: #000
+}
+@media only screen and (max-width: 768px) {
+    button {
+        padding: inherit!important;
+    }
+}

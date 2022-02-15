@@ -1,0 +1,40 @@
+#featureFood { background-color: #f8f9fa; }
+.h-400 { height: 400px; }
+.bg-white { background: #fff; }
+.featureFood-title {
+    font: 400 50px "Playfair Display", serif;
+    color: #000;
+    margin: 2em 0;
+}
+.featureFood-title-subtitle {
+    font: 300 20px "Open Sans", sans-serif;
+    color: gray;
+}
+.featureFood-item { font-family: "Playfair Display", serif; }
+.featuredFood-item-img { height: 400px; }
+h3 {
+    font-size: 14px;
+    color: #ff7a5c;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.featureFood-item-description {
+    font: 300 20px "Open Sans", sans-serif;
+    line-height: 1.8;
+    color: gray;
+}
+a {
+    display: block;
+    font: bold .8em "Open Sans", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 3em;
+    letter-spacing: .1em;
+}

@@ -1,0 +1,27 @@
+<div class="container text-center" id="carousel">
+    <h1>Customer Reviews</h1>
+    <div
+        class="row"
+        *ngFor="let review of reviews; let i = index"
+        [ngClass]="{
+            'd-none': activeTab != i
+        }">
+        <div>
+            <div class="col-md-12">
+                <p>{{review.opinion}}</p>
+            </div>
+            <div class="col-md-12">
+                <img [src]="review.image" [alt]="review.name">
+            </div>
+            <div class="col-md-12">
+                <h5>{{review.name}}</h5>
+            </div>
+            <div class="col-md-12">
+                <h6>{{review.role}}</h6>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <button (click)="activeTab = i" *ngFor="let review of reviews; let i = index"></button>
+        </div>
+    </div>
+</div>

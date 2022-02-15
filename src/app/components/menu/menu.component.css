@@ -1,0 +1,47 @@
+.menu-toggler {
+    position: fixed;
+    right: 30px;
+    top: 40px;
+    background: transparent;
+    font-size: 1.7em;
+    border: none;
+    z-index: 1;
+}
+#btn {
+    position: fixed;
+    right: 30px;
+    top: 40px;
+    background: transparent;
+    font-size: 1.7em;
+    border: none;
+}
+.menu {
+    display: block;
+    width: 250px;
+    background: #fff;
+    box-shadow: 0 -20px 20px -5px rgb(0 0 0 / 5%);
+    transform: translateX(100%);
+    transition: .8s all ease;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    overflow: auto;
+    z-index: 2;
+}
+.menu-show {
+    transform: translateX(0%);
+}
+ul {
+    position: relative;
+    margin-top: 130px;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+}
+a {
+    display: block;
+    font: 300 1.3em 'Open Sans', sans-serif;
+    padding-bottom: 17px;
+    text-decoration: none;
+    color: #000;
+}

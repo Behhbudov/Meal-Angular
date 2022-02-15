@@ -1,0 +1,22 @@
+<div class="container chefs">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-center">Meet The Chefs</h2>
+        </div>
+        <div class="col-md-6 col-12 chef" *ngFor="let chef of chefsList" data-aos="fade-up" data-aos-duration="2000">
+            <div class="row text-center">
+                <div class="col-12 m-2">
+                    <img [src]="chef.picture" [alt]="chef.name">
+                </div>
+                <div class="col-12 chef-name m-2">{{chef.name}}</div>
+                <div class="col-12 chef-role mb-4">{{chef.role}}</div>
+                <div class="col-12 chef-desc">{{chef.description}}</div>
+                <div class="col-12">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

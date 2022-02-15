@@ -1,0 +1,30 @@
+.chefs {
+    padding: 10em 0 10em 0;
+}
+h2 {
+    font: 500 50px "Playfair Display", serif;
+    color: #000;
+    padding-bottom: 1.5em;
+}
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+.chef-name { font: 400 30px "Playfair Display", serif; }
+.chef-role {
+    font: 100 1.2em "Open Sans" , Arial, Helvetica, sans-serif;
+    color: #b3b3b3;
+    letter-spacing: 0.1em;
+}
+.chef-desc {
+    font: 300 20px "Open Sans" , Arial, Helvetica, sans-serif;
+    color: #808080;
+    padding: 0 30px;
+    line-height: 1.8;
+}
+a {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 40px 20px 0 0;
+    color: #ff7a5c
+}

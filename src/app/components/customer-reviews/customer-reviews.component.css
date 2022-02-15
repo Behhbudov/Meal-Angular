@@ -1,0 +1,39 @@
+#carousel {
+    width: 55%;
+    padding: 6em 0;
+}
+h1 {
+    font: 500 45px "Playfair Display", serif;
+    padding-bottom: 1em;
+}
+p {
+    font: 300 18px "Open Sans", Arial, sans-serif;
+    line-height: 1.8;
+    color: gray;
+    margin-bottom: 30px;
+}
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+h5 { font: 500 16px "Playfair Display", serif; }
+h6 {
+    font: 300 14px "Open Sans", Arial, sans-serif;
+    color: #ccc;
+}
+button {
+    width: 5px;
+    height: 5px;
+    background-color: #ff7a5c;
+    border: 2px solid #ff7a5c;
+    border-radius: 80%;
+    margin: 40px 2px;
+    text-align: center;
+    transition: all 1000ms
+}
+.buttons {
+    width: 8px;
+    height: 8px;
+}
